@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.container h1 {
+  color: #333;
+}
+
+.container p {
+  color: #666;
+}
+
+.container button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+}
+
+.container input[type="number"] {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: calc(100% - 24px);
+  margin-bottom: 10px;
+}
+
+.container input[type="number"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.container form {
+  margin-bottom: 20px;
+}
+
+.container .settings-button {
+  margin-right: 10px;
+}
+
+.container .stats-button {
+  margin-left: 10px;
+}
+
+.container .link-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.container .link-button:hover {
+  background-color: #0056b3;
+}
